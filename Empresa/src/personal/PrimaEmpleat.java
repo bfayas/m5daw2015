@@ -17,15 +17,15 @@ public class PrimaEmpleat {
 		if (e.antiguitat >= 0 && e.antiguitat < 1000) {
 			if (e.directiu == "S") {
 				if (e.antiguitat > 12)
-					p = 600;
+					p = 660;
 				else {
-					p = 400;
+					p = 440;
 				}
 			} else if (e.directiu == "N") {
 				if (e.antiguitat > 12)
-					p = 150;
+					p = 165;
 				else
-					p = 100;
+					p = 110;
 			} else
 				System.out.println("El codi del càrrec ha de ser 'S' o 'N'");
 			if (p!=0)
